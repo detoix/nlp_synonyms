@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+scrapper
+scrapy.cfg
+korpus_finansowy.txt
+json_files
