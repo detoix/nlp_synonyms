@@ -103,4 +103,7 @@ ENV/
 scrapper
 scrapy.cfg
 korpus_finansowy.txt
+korpus_finansowy
 json_files
+korpus_finansowy.syn1neg.npy
+korpus_finansowy.wv.syn0.npy

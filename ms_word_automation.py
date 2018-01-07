@@ -23,7 +23,7 @@ def word():
         word_string = word_s.rstrip()
         word_string_lowercase = word_string.lower()
         try:
-            similar = model.similar_by_vector(word_string_lowercase, topn=100, restrict_vocab=None)
+            similar = model.vw.similar_by_vector(word_string_lowercase, topn=100, restrict_vocab=None)
         except Exception as e:
             similar = []
         similar_list = [remove_punctuation(x[0]) for x in similar if x[1] > 0.60]
